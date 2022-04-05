@@ -3,11 +3,11 @@ from tqdm import trange
 import torch
 from torch.nn import functional as F
 from torch import distributions as dist
-from im2mesh.common import (
+from generative_models.common import (
     compute_iou, make_3d_grid
 )
-from im2mesh.utils import visualize as vis
-from im2mesh.training import BaseTrainer
+from generative_models.utils import visualize as vis
+from generative_models.training import BaseTrainer
 
 
 class Trainer(BaseTrainer):

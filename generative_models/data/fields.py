@@ -4,8 +4,8 @@ import random
 from PIL import Image
 import numpy as np
 import trimesh
-from im2mesh.data.core import Field
-from im2mesh.utils import binvox_rw
+from generative_models.data.core import Field
+from generative_models.utils import binvox_rw
 
 
 class IndexField(Field):

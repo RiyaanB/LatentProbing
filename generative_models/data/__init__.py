@@ -1,16 +1,16 @@
 
-from im2mesh.data.core import (
+from generative_models.data.core import (
     Shapes3dDataset, collate_remove_none, worker_init_fn
 )
-from im2mesh.data.fields import (
+from generative_models.data.fields import (
     IndexField, CategoryField, ImagesField, PointsField,
     VoxelsField, PointCloudField, MeshField,
 )
-from im2mesh.data.transforms import (
+from generative_models.data.transforms import (
     PointcloudNoise, SubsamplePointcloud,
     SubsamplePoints
 )
-from im2mesh.data.real import (
+from generative_models.data.real import (
     KittiDataset, OnlineProductDataset,
     ImageDataset,
 )

@@ -4,10 +4,10 @@ from torch import autograd
 import numpy as np
 from tqdm import trange
 import trimesh
-from im2mesh.utils import libmcubes
-from im2mesh.common import make_3d_grid
-from im2mesh.utils.libsimplify import simplify_mesh
-from im2mesh.utils.libmise import MISE
+from generative_models.utils import libmcubes
+from generative_models.common import make_3d_grid
+from generative_models.utils.libsimplify import simplify_mesh
+from generative_models.utils.libmise import MISE
 import time
 
 
