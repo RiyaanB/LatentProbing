@@ -4,6 +4,7 @@ out
 /data
 build
 .cache
+__pycache__
 .pytest_cache
 .cache
 *.pyc
