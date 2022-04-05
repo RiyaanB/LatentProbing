@@ -1,7 +1,7 @@
 output
 out
 .vscode
-data
+/data
 build
 .cache
 .pytest_cache
